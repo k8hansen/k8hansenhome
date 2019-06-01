@@ -4,25 +4,26 @@
     }
 }
 
+.div {
+    display: block;
+}
+
 .resume {
     height: 100vh;
-    padding: 0 40px 40px, 40px;
+    padding: 0 40px;
+    margin-top: 50px;
 }
 
 .webdesign {
     height: 100vh;
     padding: 0 40px;
-}
-
-.art {
-    height: 100vh;
-    padding: 0 40px;
-    margin-bottom: 25px;
+    margin-top: 50px;
 }
 
 .contact {
     height: 100vh;
     padding: 0 40px;
+    margin-top: 50px;
 }
 
 
@@ -38,15 +39,17 @@
 .about {
     height: 100vh;
     margin-left: 60px;
+    margin-top: 80px;
 }
 
 .sidebar {
     float: left;
     width: 60%;
-    border: 8px solid white;
+    border: none;
     border-radius: 25px;
     padding: 20px;
     box-shadow: 0 4px 4px 0 rgba(191, 255, 0, 0.988), 0 3px 3px -2px rgba(255, 255, 255, 0.762), 0 5px 5px 0 rgba(0, 0, 0, 0.502);
+    background-color: rgba(255, 255, 255, 0.447);
 }
 
 @media screen and (max-width: 600px) {
@@ -69,8 +72,14 @@
     margin: 8%;
 }
 
+.resumecontainer {}
+
 
 /*--------WORKSAMPLE CARDS----------*/
+
+.wkcard {
+    border: 6px solid black;
+}
 
 .row {
     float: left;
@@ -101,9 +110,25 @@
 }
 
 
-/*--------ART CARDS----------*/
+/*--------ART----------*/
 
-.aaart {}
+.art {
+    height: 100vh;
+    padding: 0 40px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    display: flexbox;
+}
+
+.artcard {
+    box-sizing: border-box;
+}
+
+.artrow {
+    width: 50%;
+    display: flexbox;
+}
 
 
 /*--------CONTACT----------*/
