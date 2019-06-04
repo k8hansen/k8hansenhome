@@ -48,19 +48,26 @@ p {
 
 section {
     min-height: 100vh;
-    padding: 40px 60px;
+    padding: 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutwrapper {
+    padding-right: 60px !important;
+}
+
+@media screen and (max-width: 991px) {
+    .aboutwrapper {
+        padding-right: 0 !important;
+    }
 }
 
 
-/*-------SKILLS-----------*/
+/*-------RESUME-----------*/
 
-.logo {
-    max-height: 50px;
-    margin-top: 25px;
-}
-
-.rectangle {
-    max-height: 60px;
+.resume {
+    margin: 8%;
 }
 
 
