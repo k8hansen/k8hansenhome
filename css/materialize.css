@@ -2725,7 +2725,7 @@ ul:not(.browser-default)>li {
 }
 
 a {
-    color: #039be5;
+    color: #FA7268;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -4496,7 +4496,7 @@ nav .sidenav-trigger i {
 
 nav .brand-logo {
     position: absolute;
-    color: #fff;
+    color: rgb(16, 16, 16);
     display: inline-block;
     font-size: 2.1rem;
     padding-left: 25px;
@@ -4514,6 +4514,7 @@ nav .brand-logo.center {
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         padding: 40px;
+        x`x`
     }
     nav .brand-logo.left,
     nav .brand-logo.right {
@@ -5097,7 +5098,7 @@ small {
     border-radius: 0 0 2px 2px;
 }
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: #ffab40;
+    color: #FA7268;
     margin-right: 24px;
     -webkit-transition: color .3s ease;
     transition: color .3s ease;
