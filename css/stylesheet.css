@@ -41,8 +41,8 @@ p {
 .buttontop {
     position: fixed;
     font-size: 40px;
-    bottom: .3%;
-    right: .5%;
+    bottom: .1%;
+    right: .8%;
     color: black !important;
     font-weight: 800;
     z-index: 10;
