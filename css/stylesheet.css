@@ -36,6 +36,29 @@ p {
 }
 
 
+/*------------BUTTON TOP-----------------*/
+
+.buttontop {
+    position: fixed;
+    font-size: 40px;
+    bottom: .3%;
+    right: .5%;
+    color: black !important;
+    font-weight: 800;
+    z-index: 10;
+    opacity: 0.5;
+}
+
+.buttontop i:hover {
+    color: slateblue;
+}
+
+.top {
+    font-size: .3em;
+    text-align: center;
+}
+
+
 /*-------ABOUT-----------*/
 
 .portrait {
