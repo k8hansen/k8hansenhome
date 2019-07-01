@@ -4717,15 +4717,20 @@ h2 {
     }
 }
 
-h3,
-{
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 1em;
+    }
+}
+
+h3 {
     font-weight: Nunito;
     letter-spacing: 2px;
     line-height: 1.0;
     text-align: left;
     font-family: '', sans-serif;
     text-transform: uppercase;
-    font: {
+    font : {
         size: 1em;
         family: $font;
     }
