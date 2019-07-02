@@ -1,0 +1,15 @@
+[] fix mobile stuff
+[] add glitch link
+[] padding before writing and workshops
+[] add clipping mask to image
+
+[]case study moms can code work
+    html email
+        remix
+    Authentic grace
+        Wire frame
+        challenges
+    Final project    
+[] case study bantu    
+[] case study registry
+
