@@ -23,11 +23,32 @@ p {
     margin-bottom: 25px;
 }
 
+.about a {
+    color: #111;
+    padding: 0;
+    text-decoration: none;
+    background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), #FA7268 calc(50% - 8px), rgb(254, 147, 140) 100%);
+    transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+    background-size: 100% 200%;
+    background-position: 0 0;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about a:hover {
+    padding: 2px 0 4px 0;
+    background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgb(254, 147, 140) calc(50% - 8px), #FA7268 100%);
+    background-position: 0 100%;
+}
+
+.container {}
+
 
 /*-------------------Navigation-------------------*/
 
 .nav-wrapper li {
-    color: slateblue;
+    color: black;
 }
 
 .intro {
@@ -50,7 +71,7 @@ p {
 }
 
 .buttontop i:hover {
-    color: slateblue;
+    color: #FA7268;
 }
 
 .top {
@@ -61,8 +82,6 @@ p {
 
 /*-------ABOUT-----------*/
 
-
-  
 .maskedobject {
     mask: url(https://svgshare.com/i/EAi.svg);
     -webkit-mask: url(https://svgshare.com/i/EAi.svg);
@@ -71,8 +90,7 @@ p {
     max-width: 200px;
     display: block;
     margin: 0 auto;
-
-  }
+}
 
 section {
     min-height: 100vh;
