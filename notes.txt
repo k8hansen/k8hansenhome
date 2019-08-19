@@ -1,7 +1,14 @@
 [] fix mobile stuff
 [] add glitch link
-[] padding before writing and workshops
-[] add clipping mask to image
+[] fix skills
+[]image work on mobile
+[] add web+design as seperate page
+    [] nutrimedy
+    [] somali bantu
+    [] print design
+
+
+------OLD NOTES------
 
 []case study moms can code work
     html email
