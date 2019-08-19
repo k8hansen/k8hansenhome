@@ -19,70 +19,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<nav>
-    <div class="nav-wrapper" id="top">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="index.html">ABOUT</a></li>
-            <li><a href="HANSEN_Kate_resume.pdf" type="pdf" target="_blank">RESUME</a></li>
-            <li><a href="worksamples.html">WORKSAMPLES</a></li>
-            <li><a href="writing.html">WRITING</a></li>
-            <li><a href="index.html#contact">CONTACT</a></li>
-        </ul>
-    </div>
-</nav>
+<body>
 
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="index.html">ABOUT</a></li>
-    <li><a href="HANSEN_Kate_resume.pdf" type="pdf" target="_blank">RESUME</a></li>
-    <li><a href="worksamples.html">WEB + DESIGN</a></li>
-    <li><a href="writing.html">WRITING + WKSHPS</a></li>
-    <li><a href="index.html#contact">CONTACT</a></li>
-</ul>
+    <nav>
+        <div class="nav-wrapper" id="top">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="HANSEN_Kate_resume.pdf" type="pdf" target="_blank">RESUME</a></li>
+                <li><a href="worksamples.html">WORKSAMPLES</a></li>
+                <li><a href="writing.html">WRITING</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<a class="buttontop" href="#top">
-    <i class="fas fa-arrow-up"><p class ="top">top</p></i>
-</a>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html">ABOUT</a></li>
+        <li><a href="HANSEN_Kate_resume.pdf" type="pdf" target="_blank">RESUME</a></li>
+        <li><a href="worksamples.html">WEB + DESIGN</a></li>
+        <li><a href="writing.html">WRITING + WKSHPS</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+    </ul>
+
+    <a class="buttontop" href="#top">
+        <i class="fas fa-arrow-up"><p class ="top">top</p></i>
+    </a>
 
 
 
 
-<section id="art">
-    <h2>ART</h2>
-    <div class="row">
-        <!----SOLO WORK------>
-        <div class="col s12 m6">
-            <div class="card">
-                <div class="card-image">
-                    <img src="assets/katework.png">
+    <section id="art">
+        <h2>ART</h2>
+        <div class="row">
+            <!----SOLO WORK------>
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/katework.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Solo Work</span>
+                        <p>Indiviual video + new media work.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="art.html#soloart">View</a>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <span class="card-title">Solo Work</span>
-                    <p>Indiviual video + new media work.</p>
-                </div>
-                <div class="card-action">
-                    <a href="art.html#soloart">View</a>
+            </div>
+            <!----DADPRANKS------>
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/dadprankssamm.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Dadpranks</span>
+                        <p>Collaborative video, images, and performances.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="art.html#dadpranks">View</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <!----DADPRANKS------>
-        <div class="col s12 m6">
-            <div class="card">
-                <div class="card-image">
-                    <img src="assets/dadprankssamm.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title">Dadpranks</span>
-                    <p>Collaborative video, images, and performances.</p>
-                </div>
-                <div class="card-action">
-                    <a href="art.html#dadpranks">View</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.tooltipped').tooltip()
+        });
+    </script>
 
-</main>
+
+    </main>
+
+</body>
+
+</html>
