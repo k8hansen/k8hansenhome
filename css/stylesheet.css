@@ -63,7 +63,7 @@ p {
     position: fixed;
     font-size: 40px;
     bottom: .1%;
-    right: .8%;
+    right: 1.5%;
     color: black !important;
     font-weight: 800;
     z-index: 10;
@@ -85,6 +85,14 @@ p {
     border: 8px solid black;
     padding: 25px;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 600px) {
+    .border {
+        border: none;
+        padding: 0px;
+        box-shadow: none;
+    }
 }
 
 
@@ -130,6 +138,45 @@ section {
 
 .card {
     border: 6px solid black;
+}
+
+.boldtype {
+    font-weight: bold;
+}
+
+.linkbutton {
+    border: 8px solid black;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+    background-color: #FA7268;
+}
+
+.linkbutton:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.buttonlink-worksamples {
+    color: black;
+    margin-bottom: 5rem;
+}
+
+.worksample-image {
+    width: 250px;
+    height: auto;
+}
+
+.worksample-imgcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.worksample-heading {
+    margin-top: 3rem;
 }
 
 
