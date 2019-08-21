@@ -15,12 +15,16 @@
 }
 
 .contact {
-    padding: 0 40px;
+    padding: 15px 40px;
     margin: 50px;
 }
 
 p {
     margin-bottom: 25px;
+}
+
+.nav-wrapper {
+    background-color: white;
 }
 
 .about a {
@@ -66,10 +70,22 @@ p {
     color: black !important;
     font-weight: 800;
     z-index: 10;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    border: 8px solid black;
+}
+
+.buttontop:hover {
+    background-color: #ccff00;
 }
 
 .buttontop i:hover {
-    color: #FA7268;
+    color: rgb(7, 7, 7);
 }
 
 .top {
@@ -216,6 +232,34 @@ h5 {
     background-color: rgba(155, 155, 155);
     border-radius: 25px;
     margin: 20px;
+}
+
+.disclaimer {
+    background-color: white;
+    border: 8px solid black;
+    margin: 15px;
+    text-align: center;
+}
+
+.disclaimer h4 {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .disclaimer {
+        border: none;
+        padding: 0px;
+        box-shadow: none;
+        text-align: center;
+    }
+    .disclaimer h1 {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+.par-button {
+    text-align: center;
 }
 
 
