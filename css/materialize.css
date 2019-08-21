@@ -4747,6 +4747,7 @@ h4 a,
 h5 a,
 h6 a {
     font-weight: inherit;
+    font-family: "Josefin Sans";
 }
 
 h1 {
