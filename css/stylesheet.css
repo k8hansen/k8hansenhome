@@ -129,13 +129,19 @@ p {
 /*-------ABOUT-----------*/
 
 .maskedobject {
-    mask-image: url(https://svgshare.com/i/EAi.svg);
-    -webkit-mask-image: url(https://svgshare.com/i/EAi.svg);
-    -webkit-mask-size: cover;
-    text-align: center;
     max-width: 200px;
     display: block;
     margin: 0 auto;
+    border-radius: 50%;
+}
+
+@media (min-width: 769px) {
+    .maskedobject {
+        mask-image: url(https://svgshare.com/i/EAi.svg);
+        -webkit-mask-image: url(https://svgshare.com/i/EAi.svg);
+        mask-image-size: cover;
+        -webkit-mask-size: cover;
+    }
 }
 
 section {
