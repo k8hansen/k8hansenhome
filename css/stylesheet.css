@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 600px) {
     .main {
         padding: 15px 20px;
@@ -98,15 +102,16 @@ p {
 
 .border {
     border: 8px solid black;
-    padding: 25px;
+    padding: 40px 60px;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .5);
     background-color: white;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 600px) {
     .border {
         border: none;
-        padding: 0px;
+        padding: 30px;
         box-shadow: none;
     }
     .noborder {
@@ -116,15 +121,16 @@ p {
 
 .noborder {
     background-repeat: repeat;
-    background-image: url("/assets/notebook.png")
+    background-image: url("/assets/notebook.png");
+    padding: 40px 0;
 }
 
 
 /*-------ABOUT-----------*/
 
 .maskedobject {
-    mask: url(https://svgshare.com/i/EAi.svg);
-    -webkit-mask: url(https://svgshare.com/i/EAi.svg);
+    mask-image: url(https://svgshare.com/i/EAi.svg);
+    -webkit-mask-image: url(https://svgshare.com/i/EAi.svg);
     -webkit-mask-size: cover;
     text-align: center;
     max-width: 200px;
