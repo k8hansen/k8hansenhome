@@ -60,11 +60,6 @@ p {
     background-color: #ccff00;
 }
 
-a:hover {
-    background-color: #ccff00;
-    color: black;
-}
-
 
 /*-------------------Navigation-------------------*/
 
@@ -221,6 +216,7 @@ section {
     height: auto;
     padding: 25px;
     border: 8px solid black;
+    background-color: white;
 }
 
 .worksample-imgcontainer {
