@@ -50,6 +50,21 @@ p {
     background-position: 0 100%;
 }
 
+.headertype {
+    background-color: white;
+    padding: 30px 20px;
+    border: 8px solid black;
+}
+
+.headertype:hover {
+    background-color: #ccff00;
+}
+
+a:hover {
+    background-color: #ccff00;
+    color: black;
+}
+
 
 /*-------------------Navigation-------------------*/
 
@@ -228,35 +243,29 @@ h5 {
     background-image: url("/assets/notebook.png")
 }
 
-.webdesign {
-    background-color: rgba(223, 223, 223);
+.wkcard {
     border-radius: 25px;
-    margin: 20px;
+    margin: 3% 8% 3% 8%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .5);
+    border: 8px solid black;
+    background-repeat: repeat;
+    background-image: url("/assets/lined-paper-2.png");
+}
+
+.webdesign {
+    background-color: rgb(255, 255, 255);
 }
 
 .mvps {
-    background-color: rgb(184, 184, 184);
-    border-radius: 25px;
-    margin: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .production {
-    background-color: rgba(191, 191, 191);
-    border-radius: 25px;
-    margin: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .other {
-    background-color: rgba(155, 155, 155);
-    border-radius: 25px;
-    margin: 20px;
-}
-
-.disclaimer {
-    background-color: white;
-    border: 8px solid black;
-    margin: 15px;
-    text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .disclaimer h4 {
@@ -300,7 +309,7 @@ h5 {
 
 .contact a:hover {
     padding: 10px;
-    color: orangered;
+    color: #ccff00;
 }
 
 
