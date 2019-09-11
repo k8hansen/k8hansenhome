@@ -234,6 +234,12 @@ h5 {
     margin: 20px;
 }
 
+.mvps {
+    background-color: rgb(184, 184, 184);
+    border-radius: 25px;
+    margin: 20px;
+}
+
 .production {
     background-color: rgba(191, 191, 191);
     border-radius: 25px;
