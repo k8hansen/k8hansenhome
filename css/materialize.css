@@ -4597,7 +4597,8 @@ nav ul a.btn-floating>.material-icons {
 }
 
 nav ul a:hover {
-    background-color: rgba(250, 114, 104, 0.8);
+    background-color: #1a4941;
+    color: white;
 }
 
 nav ul.left {
@@ -4666,6 +4667,7 @@ nav .input-field label.active i {
     nav a.sidenav-trigger i {
         height: 64px;
         line-height: 64px;
+        color: #1a4941;
     }
     .navbar-fixed {
         height: 64px;
@@ -7884,7 +7886,7 @@ input[type=range]::-ms-thumb {
     height: calc(100% + 60px);
     height: -moz-calc(100%);
     padding-bottom: 60px;
-    background-color: #FA7268;
+    background-color: #1a4941;
     z-index: 999;
     overflow-y: auto;
     will-change: transform;
@@ -7917,7 +7919,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li>a {
-    color: rgba(0, 0, 0, 0.87);
+    color: rgba(255, 255, 255, 0.87);
     display: block;
     font-size: 14px;
     font-weight: bold;
@@ -8086,7 +8088,7 @@ input[type=range]::-ms-thumb {
 
 .sidenav .collapsible-body>ul:not(.collapsible)>li.active,
 .sidenav.sidenav-fixed .collapsible-body>ul:not(.collapsible)>li.active {
-    background-color: #ee6e73;
+    background-color: #1a4941;
 }
 
 .sidenav .collapsible-body>ul:not(.collapsible)>li.active a,
